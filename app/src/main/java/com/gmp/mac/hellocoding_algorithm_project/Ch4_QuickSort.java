@@ -1,13 +1,10 @@
 package com.gmp.mac.hellocoding_algorithm_project;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-
-public class MainActivity extends AppCompatActivity {
+public class Ch4_QuickSort extends AppCompatActivity {
 
     private int[] intArray = {5,1,3,7,10,14,11,12,20,17};
 
@@ -19,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
         euclidean_Algorithm(1680,640);
 
-
+        
         quickSort(intArray,0,intArray.length-1);
 
         for(int i=0; i<intArray.length; i++){
