@@ -1,16 +1,12 @@
 package com.gmp.mac.hellocoding_algorithm_project;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.app.AppCompatActivity;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Hashtable;
-import java.util.LinkedList;
-import java.util.Queue;
 
-public class MainActivity extends AppCompatActivity {
+public class Ch6_Breadth_FirstSearch extends AppCompatActivity {
 
 
     private Hashtable<String,String[]> graph = new Hashtable<String, String[]>();

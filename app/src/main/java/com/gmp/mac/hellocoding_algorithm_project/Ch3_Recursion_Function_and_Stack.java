@@ -35,7 +35,7 @@ public class Ch3_Recursion_Function_and_Stack extends AppCompatActivity {
 
     }
 
-    //스택
+    //스택 LIFO
     private void greet(String name){
 
         //처음 출력.
